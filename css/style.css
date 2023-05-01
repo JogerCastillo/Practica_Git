@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  width: 100%;
+  background-color: #194880;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav a {
+  padding: 6px;
+  text-decoration: none;
+  color: #ffffff;
+  border: 2px;
+  border-style: solid;
+  border-radius: 20px;
+}
+
+nav {
+  padding: 8px;
+}
+
+nav img {
+  border-radius: 30px;
+}
+
+.button-container {
+  display: inline-block;
+  position: relative;
+}
+
+.button-container a {
+  position: absolute;
+  bottom: 4em;
+  right: 4em;
+  background-color: #8f0005;
+  border-radius: 1.5em;
+  color: white;
+  text-transform: uppercase;
+  padding: 1em 1.5em;
+}
